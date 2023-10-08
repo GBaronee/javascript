@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex - 5</title>
+    <script>
+
+    var X=[];
+    var posicao=0;
+
+        for (c=0; c<80; c++){
+
+    X[c]=c+1
+    }
+    maior=X[0];
+
+        for(c=0; c<80; c++){
+        if(X[c]>maior){
+    maior=X[c];
+    posicao=c;
+    } 
+}
+
+console.log(`O maior elemento é ${maior} com sua posição em ${posicao}.`)
+
+    </script>
+</head>
+<body>
+</body>
+</html>

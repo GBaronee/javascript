@@ -1,0 +1,348 @@
+html {
+    
+    width: 100%;
+}
+
+
+#search-teste {
+
+    position: absolute;
+    width: 200px;
+}
+
+#form-1 {
+
+    margin-left: 280px;
+}
+
+#form-2 {
+
+    border-radius: 20px;
+    width: 200px;
+}
+
+#lupa {
+
+    position: absolute;
+    width: 20px;
+    margin-top: 11px;
+}
+
+#lupa-2 {
+
+    position: absolute;
+    margin-top: 10px;
+    right: 150px;
+}
+
+.search-icon {
+
+    bottom: 50px;
+    right: 22%;
+}
+
+.nav-link {
+
+    font-weight: bolder;
+}
+
+.title-teste {
+
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+
+    background-color: rgb(240, 35, 35);
+    border-radius: 3px;
+    color: white;
+}
+
+.dropdown-item:hover {
+
+    background-color: rgb(240, 35, 35);
+    border-radius: 3px;
+    color: white;
+}
+
+.col-6-lg {
+
+    width: 400px;
+    border-radius: 5px;
+}
+
+.alinhar {
+
+    align-items: center;
+}
+
+.evento {
+
+    height: 3000px;
+}
+
+.navbar {
+
+    border-bottom: 1px solid black;
+}
+
+#shows {
+    margin-top: 1150px;
+    border-radius: 15px;
+    height: 445px;
+    margin-bottom: 10px;
+}
+
+
+#botao {
+
+    position: absolute;
+    margin-left: 70%;
+}
+
+/*Footer*/
+
+#jogos-wr {
+
+    right: 0px;
+    position: absolute;
+    height: 500px;
+    width: 50%;
+    background-image: linear-gradient(to top right, transparent 50%, cyan 50%);
+}
+
+#jogos-lol {
+
+    
+    margin-top: 590px;
+    left: 0px;
+    position: absolute;
+    height: 500px;
+    width: 50%;
+    background-image: linear-gradient(to top left, transparent 50%, rgb(249, 69, 69) 50%);
+}
+
+.wr {
+
+    width: 650px;
+    position: absolute;
+    top: 20%;
+    right: 100%;
+}
+
+.lol {
+
+    width: 650px;
+    top: 20%;
+    position: absolute;
+    left: 100%;
+}
+
+#button-wr {
+
+    background-image: linear-gradient(to right, #0a58ca 5%, #5a95ee 150%);
+    height: 70px;
+    width: 300px;
+    position: absolute;
+    margin-top: 280px;
+    right: 20%;
+}
+
+#button-lol {
+
+    color: rgb(236, 236, 236);
+    background-image: linear-gradient(to right, red 5%, #d35f5f 150%);
+    height: 70px;
+    width: 300px;
+    position: absolute;
+    margin-top: 280px;
+    right: 30%;
+}
+
+#button-wr:hover {
+
+    box-shadow: 0 0 5px #77adff,
+                0 0 20px #77adff,
+                0 0 35px #77adff,
+                0 0 50px #77adff;
+    
+    background-image: linear-gradient(to right, #0a58ca 5%, #819fce 150%);
+
+}
+
+#button-lol:hover {
+
+    box-shadow: 0 0 5px #ff7777,
+                0 0 20px #ff7777,
+                0 0 35px #ff7777,
+                0 0 50px #ff7777;
+    
+    background-image: linear-gradient(to right, red 5%, #a93f3f 150%);
+
+}
+
+
+#footer-lol {
+
+    margin-top: 50px;
+    height: 230px;
+}
+
+@media(max-width: 991px) {
+
+    .barra{
+        display: none;
+    }
+}
+
+@media(max-width: 991px) {
+
+    #lupa{
+
+        display: none;
+    }
+}
+
+@media(max-width: 1199px) {
+
+    #form-1 {
+
+        margin-left: 100px;
+    }
+}
+
+/* IMG media query */
+
+@media(max-width: 1365px) {
+
+    .wr {
+
+        width: 500px;
+    }
+}
+
+@media(max-width: 1100px) {
+
+    .wr {
+
+        width: 400px;
+    }
+}
+
+@media(max-width: 900px) {
+
+    .wr {
+
+        right: 80%;
+    }
+}
+
+@media(max-width: 756px) {
+
+    .wr {
+
+        right: 110%;
+        width: 200px;
+    }
+}
+
+/* Wild Rift */
+
+@media(max-width: 1365px) {
+
+    .lol {
+
+        width: 500px;
+    }
+}
+
+@media(max-width: 1100px) {
+
+    .lol {
+
+        width: 400px;
+    }
+}
+
+@media(max-width: 900px) {
+
+    .lol {
+
+        right: 80%;
+    }
+}
+
+@media(max-width: 756px) {
+
+    .lol {
+
+        left: 80%;
+        width: 250px;
+    }
+}
+
+/* LOL */
+
+@media(max-width: 991px) {
+
+    #shows-items {
+
+        width: 280px;
+    }
+}
+
+@media(max-width: 767px) {
+
+    #shows-items {
+
+        width: 200px;
+    }
+}
+
+
+@media(max-width: 575px) {
+
+    #shows {
+
+        width: 500px;
+    }
+
+
+    #logo-1 {
+
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:990px) {
+
+    #button-lol {
+
+        right: 10%;
+    }
+}
+
+@media(max-width:775px) {
+
+    #button-lol {
+
+        right: 0%;
+    }
+}
+
+@media(max-width:775px) {
+
+    #button-lol {
+
+        right: -35px;
+    }
+}
+
+
+@media(max-width:580px) {
+
+    #button-lol {
+
+        right: -85px;
+    }
+}

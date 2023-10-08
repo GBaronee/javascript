@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex - 3</title>
+    <script>
+
+    var X = [];
+        for(c=0; c<100; c++){
+    X[c]=c+1
+    }
+        var par=[];
+        var impar=[];
+        var imp=0;
+        var pa=0;
+            for(c=0; c<100; c++){
+                if(X[c]%2==0){
+    par[pa]=X[c];
+    pa++
+    }else {
+    impar[imp]=X[c];
+    imp++
+    }
+    }
+    
+    par.forEach(function(value, index){
+    console.log(`Números pares: ${index} ${value}`)
+    })
+
+    impar.forEach(function(value, index){
+    console.log(`Números Impares: ${index} ${value}`)
+    })
+
+    </script>
+</head>
+<body>
+</body>
+</html>

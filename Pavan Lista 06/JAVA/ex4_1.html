@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    document.write("Faça uma função que recebe por parâmetro os valores necessários para o cálculo da fórmula de baskara e retorna, também por parâmetro, as suas raízes, caso seja possível calcular.");
+    function roberto(a, b, c){
+        var delta = (b * b) - 4 * a * c;
+        var x1 = -b + Math.sqrt(delta)/2 * a;
+        var x2 = -b - Math.sqrt(delta)/2 * a;
+
+        return x1, x2;
+    }
+    var a = parseInt(prompt("Insira o valor A"));
+    var b = parseInt(prompt("Insira o valor B"));
+    var c = parseInt(prompt("Insira o valor C"));
+
+    var result = roberto(a, b, c);
+    document.write("O resultado das duas raizes é:" + x1 + "     " + x2);
+</script>
+</head>
+<body>
+    
+</body>
+</html>
